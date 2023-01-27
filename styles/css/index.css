@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3f3f3f;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0;
+  font-family: "Titillium Web", sans-serif;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  background: #686868;
+  width: 250px;
+  height: 250px;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 700ms;
+}
+
+.card-top:hover {
+  box-shadow: 0 -15px #4bd1ff, 0 -15px #4bd1ff, 0 -20px #4bd1ff;
+}
+
+.card-right:hover {
+  box-shadow: 15px 0 #4bd1ff, 15px 0 #4bd1ff, 20px 0 #4bd1ff;
+}
+
+.card-bottom:hover {
+  box-shadow: 0 15px #4bd1ff, 0 15px #4bd1ff, 0 20px #4bd1ff;
+}
+
+.card-left:hover {
+  box-shadow: -15px 0 #4bd1ff, -15px 0 #4bd1ff, -20px 0 #4bd1ff;
+}
+
+.card-top-right:hover {
+  box-shadow: 15px -15px #4bd1ff, 15px -15px #4bd1ff, 20px -20px #4bd1ff;
+}
+
+.card-top-left:hover {
+  box-shadow: -20px -20px #4bd1ff, -20px -20px #4bd1ff, -30px -30px #4bd1ff, -40px -40px #4bd1ff, -50px -50px #4bd1ff, -60px -60px #4bd1ff, -70px -70px #4bd1ff, -80px -80px #4bd1ff, -90px -90px #4bd1ff, -100px -100px #4bd1ff, -110px -110px #4bd1ff;
+}
+
+.card-bottom-right:hover {
+  box-shadow: 15px 15px #4bd1ff, 15px 15px #4bd1ff, 20px 20px #4bd1ff;
+}
+
+.card-bottom-left:hover {
+  box-shadow: -15px 15px #4bd1ff, -15px 15px #4bd1ff, -20px 20px #4bd1ff;
+}
+
+/*# sourceMappingURL=index.css.map */
